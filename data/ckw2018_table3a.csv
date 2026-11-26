@@ -1,0 +1,16 @@
+prog_id,prog_short,programme,horizon,mean_effect_pp,n_effect,share_sig_positive_pct,n_sign
+A1,TRN,Training,ST,2.0,90,35,201
+A1,TRN,Training,MT,6.6,92,54,163
+A1,TRN,Training,LT,6.7,35,67,54
+A2,JSA,Job search assistance and sanctions,ST,1.2,16,53,68
+A2,JSA,Job search assistance and sanctions,MT,2.0,13,63,40
+A2,JSA,Job search assistance and sanctions,LT,1.1,7,43,21
+A3,PRS,Private-sector employment subsidy,ST,1.1,13,37,49
+A3,PRS,Private-sector employment subsidy,MT,6.2,17,65,37
+A3,PRS,Private-sector employment subsidy,LT,21.1,16,88,32
+A4,PSE,Public-sector employment,ST,3.6,14,32,41
+A4,PSE,Public-sector employment,MT,-1.1,12,25,24
+A4,PSE,Public-sector employment,LT,0.8,6,27,11
+A5,OTH,Other and mixed programmes,ST,7.2,8,52,56
+A5,OTH,Other and mixed programmes,MT,5.8,9,38,37
+A5,OTH,Other and mixed programmes,LT,2.0,4,43,23

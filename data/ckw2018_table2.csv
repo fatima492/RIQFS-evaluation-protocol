@@ -1,0 +1,4 @@
+horizon,horizon_label,n_effect,mean_effect_pp,se_mean_pp,n_sign,pct_sig_positive,pct_insignificant,pct_sig_negative
+ST,Short term (up to 1 year after programme end),141,1.6,0.8,415,40,42,18
+MT,Medium term (1-2 years),143,5.4,1.2,301,52,40,8
+LT,Long term (more than 2 years),68,8.7,2.2,141,61,35,4

@@ -1,0 +1,113 @@
+% Figure 1 of the manuscript: overview of the protocol and of the case study.
+% Icons: Tabler Icons (MIT licence, https://tabler.io/icons), converted to PDF in figures_src/icons/.
+\documentclass[border=4pt]{standalone}
+\usepackage{tikz}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds,shadows}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{c1}{HTML}{2C6E9B}\definecolor{c2}{HTML}{C9731B}\definecolor{c3}{HTML}{3C8D5A}\definecolor{c4}{HTML}{9B3C5A}
+\definecolor{ink}{HTML}{2B2B2B}\definecolor{soft}{HTML}{F4F5F7}
+% an icon at text height, and a bullet line with a leading icon
+\newcommand{\ic}[2][3.3mm]{\raisebox{-0.22\height}{\includegraphics[height=#1]{icons/#2.pdf}}}
+\newcommand{\topbox}[2]{\parbox[c][#1][t]{42.4mm}{\raggedright #2}}
+\newcommand{\icl}[3][4.8mm]{\begin{tabular}[b]{@{}c@{}}\includegraphics[height=#1]{icons/#2.pdf}\\[-1pt]{\scriptsize #3}\end{tabular}}
+\newcommand{\iline}[2]{\makebox[5.2mm][l]{\ic{#1}}\parbox[t]{37.2mm}{\raggedright #2}\par\vspace{2.2pt}}
+\begin{document}
+\begin{tikzpicture}[
+  font=\footnotesize\color{ink}, x=1mm, y=1mm,
+  head/.style={rounded corners=3pt, fill=#1, minimum width=44mm, minimum height=15mm, inner sep=0pt,
+               drop shadow={shadow xshift=0.5mm, shadow yshift=-0.5mm, opacity=0.18}},
+  badge/.style={circle, fill=white, fill opacity=0.18, minimum size=10.5mm, inner sep=0pt},
+  card/.style={rounded corners=3pt, draw=#1!45, line width=0.6pt, fill=white, text width=42.4mm,
+               inner sep=2.4mm, anchor=north, align=left,
+               drop shadow={shadow xshift=0.4mm, shadow yshift=-0.4mm, opacity=0.12}},
+  outp/.style={rounded corners=7pt, fill=#1!11, draw=#1!55, line width=0.5pt, text width=42.4mm,
+               inner sep=2.2mm, anchor=north, align=left, font=\footnotesize\itshape},
+  case/.style={rounded corners=3pt, fill=white, draw=black!18, line width=0.5pt, text width=42.4mm,
+               inner sep=2.4mm, anchor=north, align=left},
+  flow/.style={-{Latex[length=2.4mm,width=2.2mm]}, line width=1.1pt, draw=black!45},
+  down/.style={-{Latex[length=1.8mm]}, line width=0.7pt, draw=#1!70},
+  rowlab/.style={rotate=90, font=\footnotesize\bfseries, text=black!60}]
+
+% ------------------------------------------------------------------ column positions
+\def\colA{0}\def\colB{50}\def\colC{100}\def\colD{150}
+
+% ------------------------------------------------------------------ stage headers
+\foreach \x/\c/\ico/\num/\ttl in {\colA/c1/books/1/{Evidence\\channels},
+                                  \colB/c2/scale/2/{Encoding\\[-1pt]\phantom{g}},
+                                  \colC/c3/podium/3/{Ranking and\\conflict},
+                                  \colD/c4/dice/4/{Uncertainty\\and decision}}{
+  \node[head=\c] (h\num) at (\x+22,0) {};
+  \node[badge] at ($(h\num.west)+(8.5,0)$) {};
+  \node at ($(h\num.west)+(8.5,0)$) {\includegraphics[height=6.6mm]{icons/\ico-w.pdf}};
+  \node[anchor=west, text=white, font=\small\bfseries, align=left, text width=27mm]
+       at ($(h\num.west)+(15.5,0)$) {\textcolor{white!80}{\scriptsize STEP \num}\\[-0.5pt]\ttl};
+}
+\foreach \a/\b in {1/2,2/3,3/4}{\draw[flow] (h\a.east) -- (h\b.west);}
+
+% ------------------------------------------------------------------ procedure cards
+\node[card=c1] (p1) at (\colA+22,-10.5) {\topbox{40mm}{%
+  \iline{database-c1}{List programme types, criteria (outcomes or horizons) and their order of importance.}
+  \iline{chart-bar-c1}{Take each summary the synthesis reports as a separate \textbf{channel}, e.g.\ a vote count \dots}
+  \iline{ruler-measure-c1}{\dots\ and a mean effect, each with its uncertainty and clustering.}}};
+\node[card=c2] (p2) at (\colB+22,-10.5) {\topbox{40mm}{%
+  \iline{thumb-up-c2}{Turn each interval $[L,U]$ into \textbf{support} $\mu$,}
+  \iline{thumb-down-c2}{\textbf{opposition} $\nu$}
+  \iline{help-circle-c2}{and \textbf{uncommitted} evidence $1-\mu-\nu$.}
+  \iline{adjustments-horizontal-c2}{\textbf{State the value choice:} what counts against a programme? Set reliabilities $\kappa$ and benchmark $M$.}}};
+\node[card=c3] (p3) at (\colC+22,-10.5) {\topbox{40mm}{%
+  \iline{chart-bar-c3}{Pool the channels into support $t_{ij}$ and opposition $f_{ij}$.}
+  \iline{trophy-c3}{Rank by the weighted balance\\[1pt]
+    $C_i=\tfrac12(1+S_i)$,\\ $S_i=\sum_j\beta_j(t_{ij}-f_{ij})$.}
+  \iline{git-compare-c3}{Report where channels disagree \textbf{beside} the rank, not inside it.}}};
+\node[card=c4] (p4) at (\colD+22,-10.5) {\topbox{40mm}{%
+  \iline{chart-histogram-c4}{Bootstrap the published statistics (cluster-adjusted).}
+  \iline{target-arrow-c4}{Map the whole weight space, with ordinal information.}
+  \iline{arrows-shuffle-c4}{Vary the value choices and approximations.}
+  \iline{coins-c4}{Compute break-even cost ratios.}}};
+
+
+% ------------------------------------------------------------------ outputs
+\path let \p1=(p1.south), \p2=(p2.south), \p3=(p3.south), \p4=(p4.south),
+          \n1={min(min(\y1,\y2),min(\y3,\y4))} in coordinate (obase) at (0,\n1);
+\foreach \k/\c/\txt in {1/c1/{Evidence table: one row per programme, criterion and channel},
+                        2/c2/{Encoded grades under each stated value choice},
+                        3/c3/{Score, rank, disagreement verdicts and uncommitted evidence},
+                        4/c4/{Decision table: probabilities, weight regions, cost thresholds}}{
+  \node[outp=\c] (o\k) at ($(p\k.south |- obase)+(0,-4.5)$) {\parbox[c][10mm][c]{42.4mm}{\raggedright\textbf{\upshape Output}\enspace\txt}};
+  \draw[down=\c] (p\k.south) -- (o\k.north);
+}
+
+% ------------------------------------------------------------------ case study
+\node[case] (k1) at ($(o1.south)+(0,-8.5)$) {\topbox{33mm}{%
+  \iline{books-g}{Card, Kluve and Weber (2018): 857 estimates from 207 evaluations.}
+  \iline{chart-bar-g}{Vote count: share significantly positive.}
+  \iline{ruler-measure-g}{Mean effect on employment, 3 horizons.}
+  \vspace{2pt}\centering\icl{school-g}{TRN}\hspace{2.2mm}\icl{search-g}{JSA}\hspace{2.2mm}\icl{building-factory-g}{PRS}\hspace{2.2mm}\icl{building-community-g}{PSE}}};
+\node[case] (k2) at ($(o2.south)+(0,-8.5)$) {\topbox{33mm}{%
+  \iline{scale-g}{\textbf{Conventional:} non-significant results and small effects count against.}
+  \iline{thumb-down-g}{\textbf{Evidence of harm} (default): only significant negatives and harmful effects count against.}}};
+\node[case] (k3) at ($(o3.south)+(0,-8.5)$) {\topbox{33mm}{%
+  \iline{trophy-g}{Same order under both encodings:}
+  \vspace{1pt}\centering\icl[5.2mm]{building-factory-g}{PRS}\,{\small$\succ$}\,\icl[5.2mm]{school-g}{TRN}\,{\small$\succ$}\,\icl[5.2mm]{search-g}{JSA}\,{\small$\succ$}\,\icl[5.2mm]{building-community-g}{PSE}\par\vspace{3pt}\raggedright
+  \iline{alert-triangle-g}{Channels disagree in 3 of 12 cells, all for training.}}};
+\node[case] (k4) at ($(o4.south)+(0,-8.5)$) {\topbox{33mm}{%
+  \iline{building-bank-g}{PRS first in about 90\% of replications; first for all weights with long run $\ge$ short run.}
+  \iline{coins-g}{PRS stays more cost-effective than JSA unless it costs about 6.6 times as much.}}};
+
+% ------------------------------------------------------------------ sensitivity loop
+\draw[-{Latex[length=2.2mm]}, line width=0.9pt, draw=c4, dashed, rounded corners=5pt]
+  (h4.east) -- ++(4,0) |- ($(h2.north)+(0,6)$) -- (h2.north);
+\node[fill=white, inner sep=1.5pt, text=c4, font=\scriptsize\itshape] at ($(h3.north)+(0,6)$)
+  {\ic[3.4mm]{refresh-c4}\ sensitivity loop: repeat with other value choices, reliabilities and weights};
+
+% ------------------------------------------------------------------ bands and row labels
+\begin{scope}[on background layer]
+  \node[fit=(k1)(k4), fill=soft, rounded corners=5pt, inner sep=3mm] (caseband) {};
+  \node[fit=(h1)(o4), inner sep=3mm] (procband) {};
+\end{scope}
+\node[rowlab, anchor=south] at ($(procband.west)+(0,-6)$) {Protocol};
+\node[rowlab, anchor=south] at (caseband.west) {Case study};
+\end{tikzpicture}
+\end{document}

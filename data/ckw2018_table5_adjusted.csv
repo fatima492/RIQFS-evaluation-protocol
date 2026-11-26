@@ -1,0 +1,13 @@
+term,model,coef,se
+JSA,pooled_controls,-0.009,0.020
+PRS,pooled_controls,0.042,0.026
+PSE,pooled_controls,-0.080,0.020
+JSA,interactions_controls,0.007,0.021
+PRS,interactions_controls,0.016,0.041
+PSE,interactions_controls,-0.058,0.023
+JSA_x_MT,interactions_controls,-0.037,0.018
+PRS_x_MT,interactions_controls,-0.012,0.044
+PSE_x_MT,interactions_controls,-0.024,0.027
+JSA_x_LT,interactions_controls,-0.030,0.022
+PRS_x_LT,interactions_controls,0.088,0.056
+PSE_x_LT,interactions_controls,-0.053,0.039
