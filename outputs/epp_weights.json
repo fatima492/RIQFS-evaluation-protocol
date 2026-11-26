@@ -1,0 +1,1009 @@
+{
+ "space": {
+  "conv_p1": {
+   "all": {
+    "prs_first": 0.9175816677212442,
+    "pse_last": 0.9860051364126996,
+    "trn_jsa": 0.7750896390863637,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.08241833227875585,
+     "PRS": 0.9175816677212442,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.013994863587300406,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 0.9860051364126996
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.6228018324220482,
+    "pse_last": 0.9574405201714201,
+    "trn_jsa": 0.22070341362494458,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.3771981675779518,
+     "PRS": 0.6228018324220482,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.042559479828579876,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 0.9574405201714201
+    }
+   },
+   "min_lt_prs_first": 0.16,
+   "min_lt_pse_last": 0.12,
+   "n_orders": 5
+  },
+  "conv_p2": {
+   "all": {
+    "prs_first": 0.9136611208297664,
+    "pse_last": 0.9829034379226064,
+    "trn_jsa": 0.7927817272738552,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.08633887917023363,
+     "PRS": 0.9136611208297664,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.01709656207739358,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 0.9829034379226064
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.6053642677700606,
+    "pse_last": 0.9481306339589183,
+    "trn_jsa": 0.2548396630707847,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.3946357322299394,
+     "PRS": 0.6053642677700606,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.05186936604108172,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 0.9481306339589183
+    }
+   },
+   "min_lt_prs_first": 0.17,
+   "min_lt_pse_last": 0.13,
+   "n_orders": 5
+  },
+  "conv_flip_p1": {
+   "all": {
+    "prs_first": 0.9175816677212442,
+    "pse_last": 1.0,
+    "trn_jsa": 0.7750896390863637,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.08241833227875585,
+     "PRS": 0.9175816677212442,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.6228018324220482,
+    "pse_last": 1.0,
+    "trn_jsa": 0.22070341362494458,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.3771981675779518,
+     "PRS": 0.6228018324220482,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.16,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 3
+  },
+  "conv_flip_p2": {
+   "all": {
+    "prs_first": 0.9136611208297664,
+    "pse_last": 1.0,
+    "trn_jsa": 0.7927817272738552,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.08633887917023363,
+     "PRS": 0.9136611208297664,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.6053642677700606,
+    "pse_last": 1.0,
+    "trn_jsa": 0.2548396630707847,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.3946357322299394,
+     "PRS": 0.6053642677700606,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.17,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 3
+  },
+  "harm_p1": {
+   "all": {
+    "prs_first": 0.7161945881564745,
+    "pse_last": 1.0,
+    "trn_jsa": 0.8782893512487439,
+    "first": {
+     "TRN": 0.20848376571010285,
+     "JSA": 0.07532164613342267,
+     "PRS": 0.7161945881564745,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.42330427072558,
+    "pse_last": 1.0,
+    "trn_jsa": 0.5962021575291857,
+    "first": {
+     "TRN": 0.225432244717009,
+     "JSA": 0.35126348455741097,
+     "PRS": 0.42330427072558,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.24,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 6
+  },
+  "harm_p2": {
+   "all": {
+    "prs_first": 0.6893710996141487,
+    "pse_last": 1.0,
+    "trn_jsa": 0.89547276088386,
+    "first": {
+     "TRN": 0.2417711939057828,
+     "JSA": 0.06885770648006849,
+     "PRS": 0.6893710996141487,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.38015368701049207,
+    "pse_last": 1.0,
+    "trn_jsa": 0.6590808334564799,
+    "first": {
+     "TRN": 0.30803901285650953,
+     "JSA": 0.3118073001329984,
+     "PRS": 0.38015368701049207,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.26,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 6
+  },
+  "harm_flip_p1": {
+   "all": {
+    "prs_first": 0.7161945881564745,
+    "pse_last": 1.0,
+    "trn_jsa": 0.8782893512487439,
+    "first": {
+     "TRN": 0.20848376571010285,
+     "JSA": 0.07532164613342267,
+     "PRS": 0.7161945881564745,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.42330427072558,
+    "pse_last": 1.0,
+    "trn_jsa": 0.5962021575291857,
+    "first": {
+     "TRN": 0.225432244717009,
+     "JSA": 0.35126348455741097,
+     "PRS": 0.42330427072558,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.24,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 6
+  },
+  "harm_flip_p2": {
+   "all": {
+    "prs_first": 0.6893710996141487,
+    "pse_last": 1.0,
+    "trn_jsa": 0.89547276088386,
+    "first": {
+     "TRN": 0.2417711939057828,
+     "JSA": 0.06885770648006849,
+     "PRS": 0.6893710996141487,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "lt_first": {
+    "prs_first": 1.0,
+    "pse_last": 1.0,
+    "trn_jsa": 1.0,
+    "first": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 1.0,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "st_first": {
+    "prs_first": 0.38015368701049207,
+    "pse_last": 1.0,
+    "trn_jsa": 0.6590808334564799,
+    "first": {
+     "TRN": 0.30803901285650953,
+     "JSA": 0.3118073001329984,
+     "PRS": 0.38015368701049207,
+     "PSE": 0.0
+    },
+    "last": {
+     "TRN": 0.0,
+     "JSA": 0.0,
+     "PRS": 0.0,
+     "PSE": 1.0
+    }
+   },
+   "min_lt_prs_first": 0.26,
+   "min_lt_pse_last": 0.0,
+   "n_orders": 6
+  }
+ },
+ "concentration": {
+  "conv_3": {
+   "prs_first": 0.91605,
+   "pse_last": 0.98565,
+   "trn_jsa": 0.77475,
+   "first": {
+    "TRN": 0.0,
+    "JSA": 0.08395,
+    "PRS": 0.91605,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.01435,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 0.98565
+   }
+  },
+  "conv_10": {
+   "prs_first": 0.99545,
+   "pse_last": 1.0,
+   "trn_jsa": 0.90795,
+   "first": {
+    "TRN": 0.0,
+    "JSA": 0.00455,
+    "PRS": 0.99545,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "conv_30": {
+   "prs_first": 1.0,
+   "pse_last": 1.0,
+   "trn_jsa": 0.98985,
+   "first": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 1.0,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "conv_100": {
+   "prs_first": 1.0,
+   "pse_last": 1.0,
+   "trn_jsa": 1.0,
+   "first": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 1.0,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "harm_3": {
+   "prs_first": 0.72025,
+   "pse_last": 1.0,
+   "trn_jsa": 0.8745,
+   "first": {
+    "TRN": 0.2013,
+    "JSA": 0.07845,
+    "PRS": 0.72025,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "harm_10": {
+   "prs_first": 0.90905,
+   "pse_last": 1.0,
+   "trn_jsa": 0.98155,
+   "first": {
+    "TRN": 0.08505,
+    "JSA": 0.0059,
+    "PRS": 0.90905,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "harm_30": {
+   "prs_first": 0.99335,
+   "pse_last": 1.0,
+   "trn_jsa": 0.99975,
+   "first": {
+    "TRN": 0.00665,
+    "JSA": 0.0,
+    "PRS": 0.99335,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  },
+  "harm_100": {
+   "prs_first": 0.99995,
+   "pse_last": 1.0,
+   "trn_jsa": 1.0,
+   "first": {
+    "TRN": 5e-05,
+    "JSA": 0.0,
+    "PRS": 0.99995,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0,
+    "JSA": 0.0,
+    "PRS": 0.0,
+    "PSE": 1.0
+   }
+  }
+ },
+ "joint": {
+  "conv_equal": {
+   "prs_first": 0.931,
+   "pse_last": 0.8852,
+   "trn_jsa": 0.773,
+   "first": {
+    "TRN": 0.0498,
+    "JSA": 0.0192,
+    "PRS": 0.931,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0064,
+    "JSA": 0.1084,
+    "PRS": 0.0,
+    "PSE": 0.8852
+   }
+  },
+  "conv_all": {
+   "prs_first": 0.7884,
+   "pse_last": 0.7946,
+   "trn_jsa": 0.6666,
+   "first": {
+    "TRN": 0.0806,
+    "JSA": 0.1162,
+    "PRS": 0.7884,
+    "PSE": 0.0148
+   },
+   "last": {
+    "TRN": 0.048,
+    "JSA": 0.1384,
+    "PRS": 0.019,
+    "PSE": 0.7946
+   }
+  },
+  "conv_lt_first": {
+   "prs_first": 0.9812,
+   "pse_last": 0.7884,
+   "trn_jsa": 0.8872,
+   "first": {
+    "TRN": 0.0174,
+    "JSA": 0.0014,
+    "PRS": 0.9812,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0042,
+    "JSA": 0.2074,
+    "PRS": 0.0,
+    "PSE": 0.7884
+   }
+  },
+  "conv_st_first": {
+   "prs_first": 0.5192,
+   "pse_last": 0.7466,
+   "trn_jsa": 0.3784,
+   "first": {
+    "TRN": 0.1046,
+    "JSA": 0.3376,
+    "PRS": 0.5192,
+    "PSE": 0.0386
+   },
+   "last": {
+    "TRN": 0.1068,
+    "JSA": 0.0762,
+    "PRS": 0.0704,
+    "PSE": 0.7466
+   }
+  },
+  "harm_equal": {
+   "prs_first": 0.892,
+   "pse_last": 0.975,
+   "trn_jsa": 0.918,
+   "first": {
+    "TRN": 0.1048,
+    "JSA": 0.0032,
+    "PRS": 0.892,
+    "PSE": 0.0
+   },
+   "last": {
+    "TRN": 0.0002,
+    "JSA": 0.0248,
+    "PRS": 0.0,
+    "PSE": 0.975
+   }
+  },
+  "harm_all": {
+   "prs_first": 0.713,
+   "pse_last": 0.923,
+   "trn_jsa": 0.809,
+   "first": {
+    "TRN": 0.1998,
+    "JSA": 0.0838,
+    "PRS": 0.713,
+    "PSE": 0.0034
+   },
+   "last": {
+    "TRN": 0.0106,
+    "JSA": 0.0514,
+    "PRS": 0.015,
+    "PSE": 0.923
+   }
+  },
+  "harm_lt_first": {
+   "prs_first": 0.9576,
+   "pse_last": 0.9222,
+   "trn_jsa": 0.9566,
+   "first": {
+    "TRN": 0.0412,
+    "JSA": 0.001,
+    "PRS": 0.9576,
+    "PSE": 0.0002
+   },
+   "last": {
+    "TRN": 0.0004,
+    "JSA": 0.0774,
+    "PRS": 0.0,
+    "PSE": 0.9222
+   }
+  },
+  "harm_st_first": {
+   "prs_first": 0.422,
+   "pse_last": 0.8872,
+   "trn_jsa": 0.5706,
+   "first": {
+    "TRN": 0.2856,
+    "JSA": 0.2818,
+    "PRS": 0.422,
+    "PSE": 0.0106
+   },
+   "last": {
+    "TRN": 0.023,
+    "JSA": 0.0354,
+    "PRS": 0.0544,
+    "PSE": 0.8872
+   }
+  }
+ },
+ "w_est": [
+  0.4844804318488529,
+  0.3562753036437247,
+  0.1592442645074224
+ ],
+ "w_est_orders": {
+  "conv_p1": [
+   "PRS",
+   "TRN",
+   "JSA",
+   "PSE"
+  ],
+  "conv_p2": [
+   "PRS",
+   "TRN",
+   "JSA",
+   "PSE"
+  ],
+  "harm_p1": [
+   "PRS",
+   "TRN",
+   "JSA",
+   "PSE"
+  ],
+  "harm_p2": [
+   "PRS",
+   "TRN",
+   "JSA",
+   "PSE"
+  ]
+ },
+ "harm_vote_share": [
+  0.8011674508820157,
+  1.0,
+  0.6124303695239468,
+  1.0
+ ],
+ "harm_robust": [
+  {
+   "name": "Evidence of harm (base: $\\kappa=(0.5,0.5)$, $M=20$, imputed negative shares)",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.892,
+   "pse_last": 0.975,
+   "trn_jsa": 0.918
+  },
+  {
+   "name": "Imputed negative shares $\\times0.5$",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.8762,
+   "pse_last": 0.9764,
+   "trn_jsa": 0.9456
+  },
+  {
+   "name": "Imputed negative shares $\\times2$",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.909,
+   "pse_last": 0.9688,
+   "trn_jsa": 0.8278
+  },
+  {
+   "name": "Effect-size standard errors $\\times1.5$",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.8322,
+   "pse_last": 0.9798,
+   "trn_jsa": 0.8388
+  },
+  {
+   "name": "Benchmark effect $M=10$ points",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.8864,
+   "pse_last": 0.9568,
+   "trn_jsa": 0.9704
+  },
+  {
+   "name": "Benchmark effect $M=30$ points",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.857,
+   "pse_last": 0.978,
+   "trn_jsa": 0.8758
+  },
+  {
+   "name": "Public-sector short-term mean $-3.6$",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.892,
+   "pse_last": 0.975,
+   "trn_jsa": 0.918
+  },
+  {
+   "name": "$\\kappa=(0.3,0.7)$: more weight on the effect-size channel",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.9218,
+   "pse_last": 0.947,
+   "trn_jsa": 0.9756
+  },
+  {
+   "name": "$\\kappa=(0.1,0.9)$: effect-size channel dominates",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.92,
+   "pse_last": 0.8124,
+   "trn_jsa": 0.988
+  },
+  {
+   "name": "$\\kappa=(0.7,0.3)$: more weight on the vote-count channel",
+   "o1": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "o2": "$\\omega_{3} \\succ \\omega_{1} \\succ \\omega_{2} \\succ \\omega_{4}$",
+   "s1": 0,
+   "s2": 0,
+   "prs_first": 0.799,
+   "pse_last": 0.9792,
+   "trn_jsa": 0.8312
+  }
+ ],
+ "harm_kappa_sweep": {
+  "k1": [
+   0.05,
+   0.1,
+   0.15,
+   0.2,
+   0.25,
+   0.3,
+   0.35,
+   0.4,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.65,
+   0.7,
+   0.75,
+   0.8,
+   0.85,
+   0.9,
+   0.95
+  ],
+  "orders": [
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ],
+   [
+    "PRS",
+    "TRN",
+    "JSA",
+    "PSE"
+   ]
+  ]
+ },
+ "harm_kappa_prs_first_all": true,
+ "harm_kappa_trn_over_jsa_all": true,
+ "harm_M_prs_first_all": true
+}

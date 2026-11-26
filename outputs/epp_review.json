@@ -1,0 +1,342 @@
+{
+ "verdicts": {
+  "TRN_ST": {
+   "vote": "-",
+   "effect": "+",
+   "conflict": true,
+   "opposite": true,
+   "vote_int": [
+    0.23137626302002828,
+    0.4906205790709894
+   ],
+   "eff_int": [
+    0.03742445453783283,
+    3.962575545462167
+   ]
+  },
+  "TRN_MT": {
+   "vote": "0",
+   "effect": "+",
+   "conflict": true,
+   "opposite": false,
+   "vote_int": [
+    0.38780148983162965,
+    0.685086758635525
+   ],
+   "eff_int": [
+    3.6677334541265503,
+    9.53226654587345
+   ]
+  },
+  "TRN_LT": {
+   "vote": "0",
+   "effect": "+",
+   "conflict": true,
+   "opposite": false,
+   "vote_int": [
+    0.40372933228086527,
+    0.85891654107192
+   ],
+   "eff_int": [
+    0.6897683738189553,
+    12.710231626181045
+   ]
+  },
+  "JSA_ST": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.30694455334913284,
+    0.7416824426081288
+   ],
+   "eff_int": [
+    -3.4546566028558363,
+    5.854656602855837
+   ]
+  },
+  "JSA_MT": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.33285915417428286,
+    0.8531740092446374
+   ],
+   "eff_int": [
+    -5.800558228724957,
+    9.800558228724956
+   ]
+  },
+  "JSA_LT": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.1337662586556665,
+    0.7865676040766637
+   ],
+   "eff_int": [
+    -12.33928647665992,
+    14.53928647665992
+   ]
+  },
+  "PRS_ST": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.16074652991717847,
+    0.6429635980298372
+   ],
+   "eff_int": [
+    -4.063877861930383,
+    6.263877861930382
+   ]
+  },
+  "PRS_MT": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.33953090453441265,
+    0.8702830548635458
+   ],
+   "eff_int": [
+    -0.621390287981546,
+    13.021390287981546
+   ]
+  },
+  "PRS_LT": {
+   "vote": "+",
+   "effect": "+",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.5280644353776602,
+    0.9796174795788404
+   ],
+   "eff_int": [
+    12.210747546151099,
+    29.989252453848906
+   ]
+  },
+  "PSE_ST": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.11861849676594494,
+    0.621997326963777
+   ],
+   "eff_int": [
+    -1.3760372174204698,
+    8.57603721742047
+   ]
+  },
+  "PSE_MT": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.05867981963320307,
+    0.6405985305343789
+   ],
+   "eff_int": [
+    -9.21907842079625,
+    7.0190784207962515
+   ]
+  },
+  "PSE_LT": {
+   "vote": "0",
+   "effect": "0",
+   "conflict": false,
+   "opposite": false,
+   "vote_int": [
+    0.03853965587606778,
+    0.7733842979800561
+   ],
+   "eff_int": [
+    -13.716088471142054,
+    15.316088471142056
+   ]
+  }
+ },
+ "n_conflict_cells": 3,
+ "n_opposite_cells": 1,
+ "baselines": {
+  "Procedure, conventional encoding": {
+   "order": "PRS $\\succ$ TRN $\\succ$ JSA $\\succ$ PSE",
+   "score": [
+    0.5685442469925798,
+    0.5308328351757093,
+    0.640956224246271,
+    0.45140151064611905
+   ]
+  },
+  "Procedure, evidence-of-harm encoding": {
+   "order": "PRS $\\succ$ TRN $\\succ$ JSA $\\succ$ PSE",
+   "score": [
+    0.5920985669846962,
+    0.5599358888052072,
+    0.6312747717439465,
+    0.5113685099871487
+   ]
+  },
+  "Significance-count rule (horizons with a significantly positive mean effect, minus negative)": {
+   "order": "TRN $\\succ$ PRS $\\succ$ JSA $=$ PSE",
+   "score": [
+    1.0,
+    0.0,
+    0.3333333333333333,
+    0.0
+   ]
+  },
+  "Standardised average of the two point estimates": {
+   "order": "PRS $\\succ$ TRN $\\succ$ JSA $\\succ$ PSE",
+   "score": [
+    0.15261039950876107,
+    -0.1462388846484517,
+    0.8488371663441798,
+    -0.8552086812044891
+   ]
+  },
+  "Covariate-adjusted contrasts, pooled model (CKW Table 5, col.~2)": {
+   "order": "PRS $\\succ$ TRN $\\succ$ JSA $\\succ$ PSE",
+   "score": [
+    0.0,
+    -0.009,
+    0.042,
+    -0.08
+   ]
+  },
+  "Covariate-adjusted contrasts by horizon, equal weights (CKW Table 5, col.~4)": {
+   "order": "PRS $\\succ$ TRN $\\succ$ JSA $\\succ$ PSE",
+   "score": [
+    0.0,
+    -0.01533333333333333,
+    0.04133333333333333,
+    -0.08366666666666667
+   ]
+  }
+ },
+ "adj_jsa_vs_trn": {
+  "coef": -0.009,
+  "se": 0.02
+ },
+ "sig_counts": {
+  "TRN": [
+   1,
+   1,
+   1
+  ],
+  "JSA": [
+   0,
+   0,
+   0
+  ],
+  "PRS": [
+   0,
+   0,
+   1
+  ],
+  "PSE": [
+   0,
+   0,
+   0
+  ]
+ },
+ "Ebar": [
+  5.1,
+  1.4333333333333333,
+  9.466666666666667,
+  1.0999999999999999
+ ],
+ "Ebar_se": [
+  1.1852967798854082,
+  2.7587666901703827,
+  2.0982659411473046,
+  2.9525703984277767
+ ],
+ "cost_effectiveness": [
+  {
+   "i": "PRS",
+   "l": "TRN",
+   "ratio": 1.8562091503267975,
+   "probs": [
+    0.96315,
+    0.7447,
+    0.40645,
+    0.07935,
+    0.00505
+   ]
+  },
+  {
+   "i": "PRS",
+   "l": "JSA",
+   "ratio": 6.604651162790698,
+   "probs": [
+    0.9893,
+    0.9417,
+    0.8669,
+    0.7252,
+    0.562
+   ]
+  },
+  {
+   "i": "TRN",
+   "l": "JSA",
+   "ratio": 3.5581395348837206,
+   "probs": [
+    0.8875,
+    0.7499,
+    0.6495,
+    0.5361,
+    0.4374
+   ]
+  },
+  {
+   "i": "PRS",
+   "l": "PSE",
+   "ratio": 8.606060606060607,
+   "probs": [
+    0.99065,
+    0.9458,
+    0.87885,
+    0.7505,
+    0.6094
+   ]
+  },
+  {
+   "i": "TRN",
+   "l": "PSE",
+   "ratio": 4.636363636363637,
+   "probs": [
+    0.8971,
+    0.77485,
+    0.6873,
+    0.584,
+    0.4913
+   ]
+  },
+  {
+   "i": "JSA",
+   "l": "PSE",
+   "ratio": 1.3030303030303032,
+   "probs": [
+    0.53885,
+    0.49015,
+    0.46005,
+    0.428,
+    0.4018
+   ]
+  }
+ ]
+}

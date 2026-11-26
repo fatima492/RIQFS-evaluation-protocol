@@ -1,0 +1,361 @@
+{
+ "probs": {
+  "conv": {
+   "prs_first": 0.931,
+   "pse_last": 0.8852,
+   "trn_jsa": 0.773,
+   "order": 0.6208
+  },
+  "harm": {
+   "prs_first": 0.892,
+   "pse_last": 0.975,
+   "trn_jsa": 0.918,
+   "order": 0.7912
+  },
+  "mean": {
+   "prs_first": 0.951,
+   "pse_last": 0.5196,
+   "trn_jsa": 0.893,
+   "order": 0.4134
+  },
+  "vote": {
+   "prs_first": 0.7378,
+   "pse_last": 0.9252,
+   "trn_jsa": 0.4682,
+   "order": 0.3486
+  },
+  "sig": {
+   "prs_first": 0.2638,
+   "pse_last": 0.4224,
+   "trn_jsa": 0.9816,
+   "order": 0.1082
+  },
+  "std": {
+   "prs_first": 0.9718,
+   "pse_last": 0.8918,
+   "trn_jsa": 0.7758,
+   "order": 0.6572
+  },
+  "adj": {
+   "prs_first": 0.9116,
+   "pse_last": 0.9946,
+   "trn_jsa": 0.67345,
+   "order": 0.6313
+  }
+ },
+ "bench": [
+  {
+   "enc": "conv",
+   "name": "IFWA aggregation and score",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "conv",
+   "name": "IF-TOPSIS, Szmidt--Kacprzyk distance",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "conv",
+   "name": "VIKOR on intuitionistic scores",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{JSA} \\succ \\mathrm{TRN} \\succ \\mathrm{PSE}$",
+   "d": 1
+  },
+  {
+   "enc": "conv",
+   "name": "Dual hesitant TOPSIS, sorted channels",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "conv",
+   "name": "Dempster's rule on discounted channels",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "harm",
+   "name": "IFWA aggregation and score",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "harm",
+   "name": "IF-TOPSIS, Szmidt--Kacprzyk distance",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "harm",
+   "name": "VIKOR on intuitionistic scores",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "harm",
+   "name": "Dual hesitant TOPSIS, sorted channels",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  },
+  {
+   "enc": "harm",
+   "name": "Dempster's rule on discounted channels",
+   "order": "$\\mathrm{PRS} \\succ \\mathrm{TRN} \\succ \\mathrm{JSA} \\succ \\mathrm{PSE}$",
+   "d": 0
+  }
+ ],
+ "bench_all_agree": false,
+ "sim_ckw_se": [
+  2.552631578947368,
+  0.5977443609022557,
+  1.8684210526315788,
+  2.3571428571428568
+ ],
+ "sim": {
+  "equal": {
+   "label": "Equal power",
+   "tbar": [
+    6.333333333333333,
+    3.0,
+    8.666666666666666,
+    0.3333333333333333
+   ],
+   "se": [
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "acc": {
+    "conv": {
+     "top": 0.9945,
+     "bottom": 0.9955,
+     "pair": 1.0,
+     "order": 0.99
+    },
+    "harm": {
+     "top": 0.9885,
+     "bottom": 0.995,
+     "pair": 1.0,
+     "order": 0.9835
+    },
+    "harmeff": {
+     "top": 0.9855,
+     "bottom": 0.991,
+     "pair": 0.998,
+     "order": 0.9745
+    },
+    "mean": {
+     "top": 0.9725,
+     "bottom": 0.985,
+     "pair": 0.998,
+     "order": 0.956
+    },
+    "vote": {
+     "top": 0.988,
+     "bottom": 0.992,
+     "pair": 0.9995,
+     "order": 0.9795
+    },
+    "std": {
+     "top": 0.9945,
+     "bottom": 0.9955,
+     "pair": 1.0,
+     "order": 0.99
+    },
+    "sig": {
+     "top": 0.6015,
+     "bottom": 0.9205,
+     "pair": 0.86,
+     "order": 0.4615
+    }
+   },
+   "flag": 1.0,
+   "flag_opp": 0.7715
+  },
+  "power": {
+   "label": "Power differs (vote-count trap)",
+   "tbar": [
+    5.333333333333333,
+    2.6666666666666665,
+    8.0,
+    0.0
+   ],
+   "se": [
+    9.0,
+    1.5,
+    6.0,
+    6.0
+   ],
+   "acc": {
+    "conv": {
+     "top": 0.5025,
+     "bottom": 0.996,
+     "pair": 0.001,
+     "order": 0.001
+    },
+    "harm": {
+     "top": 0.709,
+     "bottom": 0.9885,
+     "pair": 0.002,
+     "order": 0.002
+    },
+    "harmeff": {
+     "top": 0.972,
+     "bottom": 0.9855,
+     "pair": 0.151,
+     "order": 0.1455
+    },
+    "mean": {
+     "top": 0.9255,
+     "bottom": 0.9845,
+     "pair": 0.944,
+     "order": 0.8555
+    },
+    "vote": {
+     "top": 0.014,
+     "bottom": 0.954,
+     "pair": 0.0,
+     "order": 0.0
+    },
+    "std": {
+     "top": 0.914,
+     "bottom": 0.9985,
+     "pair": 0.0055,
+     "order": 0.0055
+    },
+    "sig": {
+     "top": 0.7265,
+     "bottom": 0.933,
+     "pair": 0.34,
+     "order": 0.2515
+    }
+   },
+   "flag": 1.0,
+   "flag_opp": 0.9155
+  },
+  "thin": {
+   "label": "Few effect estimates (effect-size trap)",
+   "tbar": [
+    4.666666666666666,
+    3.333333333333333,
+    9.0,
+    0.6666666666666666
+   ],
+   "se": [
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "acc": {
+    "conv": {
+     "top": 1.0,
+     "bottom": 0.9095,
+     "pair": 0.881,
+     "order": 0.795
+    },
+    "harm": {
+     "top": 1.0,
+     "bottom": 0.9645,
+     "pair": 0.8645,
+     "order": 0.8315
+    },
+    "harmeff": {
+     "top": 0.9995,
+     "bottom": 0.9215,
+     "pair": 0.832,
+     "order": 0.7625
+    },
+    "mean": {
+     "top": 0.998,
+     "bottom": 0.904,
+     "pair": 0.819,
+     "order": 0.734
+    },
+    "vote": {
+     "top": 0.9995,
+     "bottom": 0.9355,
+     "pair": 0.8585,
+     "order": 0.7965
+    },
+    "std": {
+     "top": 1.0,
+     "bottom": 0.9485,
+     "pair": 0.8745,
+     "order": 0.8265
+    },
+    "sig": {
+     "top": 0.7735,
+     "bottom": 0.833,
+     "pair": 0.703,
+     "order": 0.4225
+    }
+   },
+   "flag": 0.995,
+   "flag_opp": 0.3465
+  },
+  "ckw": {
+   "label": "Calibrated to the case study",
+   "tbar": [
+    5.1,
+    1.4333333333333333,
+    9.466666666666667,
+    1.0999999999999999
+   ],
+   "se": [
+    2.552631578947368,
+    0.5977443609022557,
+    1.8684210526315788,
+    2.3571428571428568
+   ],
+   "acc": {
+    "conv": {
+     "top": 1.0,
+     "bottom": 0.999,
+     "pair": 0.877,
+     "order": 0.876
+    },
+    "harm": {
+     "top": 1.0,
+     "bottom": 1.0,
+     "pair": 0.9965,
+     "order": 0.9965
+    },
+    "harmeff": {
+     "top": 1.0,
+     "bottom": 0.9775,
+     "pair": 1.0,
+     "order": 0.9775
+    },
+    "mean": {
+     "top": 1.0,
+     "bottom": 0.6045,
+     "pair": 1.0,
+     "order": 0.6045
+    },
+    "vote": {
+     "top": 0.9905,
+     "bottom": 1.0,
+     "pair": 0.3875,
+     "order": 0.3875
+    },
+    "std": {
+     "top": 1.0,
+     "bottom": 0.997,
+     "pair": 0.9645,
+     "order": 0.9615
+    },
+    "sig": {
+     "top": 0.1285,
+     "bottom": 0.562,
+     "pair": 0.9825,
+     "order": 0.0695
+    }
+   },
+   "flag": 1.0,
+   "flag_opp": 0.9545
+  }
+ }
+}
